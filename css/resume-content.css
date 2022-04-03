@@ -1,0 +1,749 @@
+/* Resume-content Code Area Start in this Page */
+
+/* Resume-content Code Area Start in the here */
+#resume-content {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+    overflow: scroll;
+    position: relative;
+
+
+}
+
+.resume-container {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+}
+
+
+.resume-header {
+    width: 100%;
+    height: 10%;
+    background: #31313a;
+}
+
+.resume-header-content {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+
+
+}
+
+.resume-header-content::before {
+    background: linear-gradient(135deg, rgba(255, 152, 0, .4) 0%, rgba(255, 152, 0, .01) 100%);
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 1%;
+    width: 40%;
+    height: 5%;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+
+}
+
+
+.resume-header-content p {
+    border-bottom: 1px solid rgb(128, 128, 128);
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 900;
+    font-family: 'Palette Mosaic', 'cursive';
+    font-family: 'Poppins', sans-serif;
+    padding-left: 1%;
+}
+
+.resume-content {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+    display: flex;
+
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+/* Resume Content Left Area Code's Start in the Here */
+
+
+.resume-content-left {
+    width: 50%;
+    background: #31313a;
+    padding-left: 3%;
+    position: relative;
+}
+
+.resume-content-left::after {
+    content: "";
+    background: rgba(128, 128, 128, 0.363);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: .3%;
+}
+
+
+.resume-content-left-header {
+    width: 100%;
+    height: 10%;
+    background: #31313a;
+    display: flex;
+}
+
+.resume-content-left-header::after {
+    content: "";
+    background: rgba(128, 128, 128, 0.363);
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: .1%;
+    width: 90%;
+
+}
+
+.resume-content-left-header span::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0b1";
+    display: inline-block;
+    color: #ff9800;
+    font-size: 2rem;
+    background: #31313a;
+    padding-right: 3%;
+
+}
+
+.resume-content-left-header span {
+    width: 100%;
+    font-size: 1.4rem;
+    background: #31313a;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: relative;
+}
+
+
+
+
+
+.resume-content-left-item {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+    padding-top: 5%;
+
+}
+
+
+
+/* ---------------------------------------------------- */
+/* Resume Left Item - 1 Code Area Start in the Here */
+
+.resume-left-item-1 {
+    width: 100%;
+    height: 40%;
+    background: #31313a;
+    position: relative;
+
+}
+
+.resume-left-item-1::after {
+    content: "";
+    background: rgba(128, 128, 128, 0.363);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: .3%;
+    width: 90%;
+}
+
+.left-item-1-content {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+}
+
+.left-item-1-year {
+    width: 100%;
+    color: #ff9800;
+    padding-bottom: 5%;
+    background: #31313a;
+}
+
+.left-item-1-year span {
+    font-size: .8rem;
+    border: 1px solid #ff9800;
+    padding: 0 5%;
+}
+
+.left-item-1-header {
+    background: #31313a;
+}
+
+.left-item-1-header span {
+    background: #31313a;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.left-item-1-firm {
+    background: #31313a;
+    padding-bottom: 5%;
+}
+
+.left-item-1-firm span {
+    background: #31313a;
+    color: rgb(175, 175, 175);
+    font-size: .8rem;
+}
+
+.left-item-1-description {
+    background: #31313a;
+}
+
+.left-item-1-description span {
+    background: #31313a;
+    color: rgb(175, 175, 175);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+
+/* Resume Left Item - 1 Code Area End of the Here */
+/* ---------------------------------------------------- */
+
+/* ---------------------------------------------------- */
+/* Resume Left Item - 2 Code Area Start in the Here */
+
+
+.resume-left-item-2 {
+    width: 100%;
+    height: 40%;
+    background: #31313a;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.resume-left-item-2::after {
+    content: "";
+    background: rgba(128, 128, 128, 0.363);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: .3%;
+    width: 90%;
+}
+
+.left-item-2-content {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+}
+
+.left-item-2-year {
+    width: 100%;
+    color: #ff9800;
+    padding-bottom: 5%;
+    background: #31313a;
+}
+
+.left-item-2-year span {
+    font-size: .8rem;
+    border: 1px solid #ff9800;
+    padding: 0 5%;
+}
+
+.left-item-2-header {
+    background: #31313a;
+}
+
+.left-item-2-header span {
+    background: #31313a;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.left-item-2-firm {
+    background: #31313a;
+    padding-bottom: 5%;
+}
+
+.left-item-2-firm span {
+    background: #31313a;
+    color: rgb(175, 175, 175);
+    font-size: .8rem;
+}
+
+.left-item-2-description {
+    background: #31313a;
+}
+
+.left-item-2-description span {
+    background: #31313a;
+    color: rgb(175, 175, 175);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+
+/* Resume Left Item - 2 Code Area End of the Here */
+/* ---------------------------------------------------- */
+
+/* Resume Left Item - 2 Code Area Start in the Here */
+
+.resume-left-item-3 {
+    width: 100%;
+    height: 40%;
+    background: #31313a;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.resume-left-item-3::after {
+    content: "";
+    background: rgba(128, 128, 128, 0.363);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: .3%;
+    width: 90%;
+}
+
+.left-item-3-content {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+}
+
+.left-item-3-year {
+    width: 100%;
+    color: #ff9800;
+    padding-bottom: 5%;
+    background: #31313a;
+}
+
+.left-item-3-year span {
+    font-size: .8rem;
+    border: 1px solid #ff9800;
+    padding: 0 5%;
+}
+
+.left-item-3-header {
+    background: #31313a;
+}
+
+.left-item-3-header span {
+    background: #31313a;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.left-item-3-firm {
+    background: #31313a;
+    padding-bottom: 5%;
+}
+
+.left-item-3-firm span {
+    background: #31313a;
+    color: rgb(175, 175, 175);
+    font-size: .8rem;
+}
+
+.left-item-3-description {
+    background: #31313a;
+}
+
+.left-item-3-description span {
+    background: #31313a;
+    color: rgb(175, 175, 175);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+/* Resume Left Item - 2 Code Area End of the Here */
+/* ---------------------------------------------------- */
+
+/* Resume Content Left Area Code's End of the Here */
+/* ------------------------------------------------------------------------------------------------ */
+
+/* Resume Content Right Area Code's Start in the Here */
+
+
+.resume-content-right {
+    width: 50%;
+    background: #31313a;
+    padding-left: 3%;
+    position: relative;
+}
+
+.resume-content-right-header {
+    width: 100%;
+    height: 10%;
+    background: #31313a;
+    display: flex;
+}
+
+.resume-content-right-header::after {
+    content: "";
+    background: rgba(128, 128, 128, 0.363);
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    height: .1%;
+    width: 90%;
+
+}
+
+.resume-content-right-header span::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f19c";
+    display: inline-block;
+    color: #ff9800;
+    font-size: 2rem;
+    background: #31313a;
+    padding-right: 3%;
+
+}
+
+.resume-content-right-header span {
+    width: 100%;
+    font-size: 1.4rem;
+    background: #31313a;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.resume-content-right-item {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+    padding-top: 5%;
+
+}
+
+/* --------------------------------------------------- */
+/* Resume Right Item 1 Code Area start in the here  */
+
+.resume-right-item-1 {
+    width: 100%;
+    height: 40%;
+    background: #31313a;
+    position: relative;
+
+}
+
+.resume-right-item-1::after {
+    content: "";
+    background: rgba(128, 128, 128, 0.363);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: .3%;
+    width: 90%;
+}
+
+.right-item-1-content {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+}
+
+.right-item-1-year {
+    width: 100%;
+    color: #ff9800;
+    padding-bottom: 5%;
+    background: #31313a;
+}
+
+.right-item-1-year span {
+    font-size: .8rem;
+    border: 1px solid #ff9800;
+    padding: 0 5%;
+}
+
+.right-item-1-header {
+    background: #31313a;
+}
+
+.right-item-1-header span {
+    background: #31313a;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.right-item-1-firm {
+    background: #31313a;
+    padding-bottom: 5%;
+}
+
+.right-item-1-firm span {
+    background: #31313a;
+    color: rgb(175, 175, 175);
+    font-size: .8rem;
+}
+
+.right-item-1-description {
+    background: #31313a;
+}
+
+.right-item-1-description span {
+    background: #31313a;
+    color: rgb(175, 175, 175);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+/* Resume Right Item 1 Code Area End of the here  */
+/* --------------------------------------------------- */
+
+/* Resume Right Item 2 Code Area Start in the here  */
+
+.resume-right-item-2 {
+    width: 100%;
+    height: 40%;
+    background: #31313a;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.resume-right-item-2::after {
+    content: "";
+    background: rgba(128, 128, 128, 0.363);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: .3%;
+    width: 90%;
+}
+
+.right-item-2-content {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+}
+
+.right-item-2-year {
+    width: 100%;
+    color: #ff9800;
+    padding-bottom: 5%;
+    background: #31313a;
+}
+
+.right-item-2-year span {
+    font-size: .8rem;
+    border: 1px solid #ff9800;
+    padding: 0 5%;
+}
+
+.right-item-2-header {
+    background: #31313a;
+}
+
+.right-item-2-header span {
+    background: #31313a;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.right-item-2-firm {
+    background: #31313a;
+    padding-bottom: 5%;
+}
+
+.right-item-2-firm span {
+    background: #31313a;
+    color: rgb(175, 175, 175);
+    font-size: .8rem;
+}
+
+.right-item-2-description {
+    background: #31313a;
+}
+
+.right-item-2-description span {
+    background: #31313a;
+    color: rgb(175, 175, 175);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+/* Resume Right Item 2 Code Area End of the here  */
+/* ------------------------------------------------------ */
+
+/* Resume Right Item 3 Code Area Start in the here  */
+
+.resume-right-item-3 {
+    width: 100%;
+    height: 40%;
+    background: #31313a;
+    position: relative;
+    margin-top: 10%;
+}
+
+.resume-right-item-3::after {
+    content: "";
+    background: rgba(128, 128, 128, 0.363);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: .3%;
+    width: 90%;
+}
+
+.right-item-3-content {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+}
+
+.right-item-3-year {
+    width: 100%;
+    color: #ff9800;
+    padding-bottom: 5%;
+    background: #31313a;
+}
+
+.right-item-3-year span {
+    font-size: .8rem;
+    border: 1px solid #ff9800;
+    padding: 0 5%;
+}
+
+.right-item-3-header {
+    background: #31313a;
+}
+
+.right-item-3-header span {
+    background: #31313a;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.right-item-3-firm {
+    background: #31313a;
+    padding-bottom: 5%;
+}
+
+.right-item-3-firm span {
+    background: #31313a;
+    color: rgb(175, 175, 175);
+    font-size: .8rem;
+}
+
+.right-item-3-description {
+    background: #31313a;
+}
+
+.right-item-3-description span {
+    background: #31313a;
+    color: rgb(175, 175, 175);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+/* Resume Right Item 3 Code Area End of the here  */
+
+/* Resume Right Item 4 Code Area Start in the here  */
+
+.resume-right-item-4 {
+    width: 100%;
+    height: 40%;
+    background: #31313a;
+    position: relative;
+    margin-top: 10%;
+}
+
+.resume-right-item-4::after {
+    content: "";
+    background: rgba(128, 128, 128, 0.363);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: .3%;
+    width: 90%;
+}
+
+.right-item-4-content {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+}
+
+.right-item-4-year {
+    width: 100%;
+    color: #ff9800;
+    padding-bottom: 5%;
+    background: #31313a;
+}
+
+.right-item-4-year span {
+    font-size: .8rem;
+    border: 1px solid #ff9800;
+    padding: 0 5%;
+}
+
+.right-item-4-header {
+    background: #31313a;
+}
+
+.right-item-4-header span {
+    background: #31313a;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.right-item-4-firm {
+    background: #31313a;
+    padding-bottom: 5%;
+}
+
+.right-item-4-firm span {
+    background: #31313a;
+    color: rgb(175, 175, 175);
+    font-size: .8rem;
+}
+
+.right-item-4-description {
+    background: #31313a;
+}
+
+.right-item-4-description span {
+    background: #31313a;
+    color: rgb(175, 175, 175);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+
+
+
+/* Resume Right Item 3 Code Area End of the here  */
+
+
+
+
+/* Resume Content Left Area Code's End of the Here */
+
+/* ------------------------------------------------------------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+/* When time end of this page code change resume-content => about-content on app.js file */
+
+/* Resume-content Code Area End of the here */

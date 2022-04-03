@@ -1,0 +1,986 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #26262d;
+    font-family: 'Poppins', sans-serif;
+    -webkit-box-sizing: border-box;
+
+}
+
+
+
+.container {
+    width: 90%;
+    height: 80%;
+    position: relative;
+    top: 10%;
+    left: 5%;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------  */
+/* Menu Code Area start In the Here */
+.container .row .navbar {
+    width: 7%;
+    height: 100%;
+}
+
+.navbar .menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .menu ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.menu ul li {
+    width: 100%;
+    height: 12%;
+    border-radius: 5%;
+    background-color: #31313a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    transition: .1s ease-in-out;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    background: none;
+    font-size: .8rem;
+    transition: .1s ease-in-out;
+}
+
+.menu ul li:first-child::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f007";
+    display: inline-block;
+    font-weight: 900;
+    font-size: 1.1rem;
+    padding-bottom: 5%;
+
+
+}
+
+.menu ul li:nth-child(2)::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f15b";
+    display: inline-block;
+    font-weight: 900;
+    color: white;
+    font-size: 1.1rem;
+    padding-bottom: 5%;
+    transition: .1s ease-in-out;
+}
+
+
+.menu ul li:nth-child(3)::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f303";
+    display: inline-block;
+    font-weight: 900;
+    color: white;
+    font-size: 1.1rem;
+    padding-bottom: 5%;
+    transition: .1s ease-in-out;
+}
+
+.menu ul li:nth-child(4)::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f781";
+    display: inline-block;
+    font-weight: 900;
+    color: white;
+    font-size: 1.1rem;
+    padding-bottom: 5%;
+    transition: .1s ease-in-out;
+}
+
+
+.menu ul li:nth-child(5)::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f2b9";
+    display: inline-block;
+    font-weight: 900;
+    color: white;
+    font-size: 1.1rem;
+    padding-bottom: 5%;
+    transition: .1s ease-in-out;
+}
+
+.menu ul li:nth-child(6)::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f164";
+    display: inline-block;
+    font-weight: 900;
+    color: white;
+    font-size: 1.1rem;
+    padding-bottom: 5%;
+    transition: .1s ease-in-out;
+}
+
+.menu ul li:nth-child(7)::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f542";
+    display: inline-block;
+    font-weight: 900;
+    color: white;
+    font-size: 1.1rem;
+    padding-bottom: 5%;
+    transition: .1s ease-in-out;
+}
+
+.menu ul li:nth-child(8)::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f844";
+    display: inline-block;
+    font-weight: 900;
+    color: white;
+    font-size: 1.1rem;
+    padding-bottom: 5%;
+    transition: .1s ease-in-out;
+}
+
+.menu ul li:hover a,
+.menu ul li:first-child:hover,
+.menu ul li:nth-child(2):hover::before,
+.menu ul li:nth-child(3):hover::before,
+.menu ul li:nth-child(4):hover::before,
+.menu ul li:nth-child(5):hover::before,
+.menu ul li:nth-child(6):hover::before,
+.menu ul li:nth-child(7):hover::before,
+.menu ul li:nth-child(8):hover::before {
+
+
+    color: #ff9800 !important;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+
+.menu ul li:nth-child(2):hover {
+    color: #ff9800 !important;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+
+.menu ul li:nth-child(3):hover {
+    color: #ff9800 !important;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+
+.menu ul li:nth-child(4):hover {
+    color: #ff9800 !important;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+
+}
+
+.menu ul li:nth-child(5):hover {
+    color: #ff9800 !important;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+
+.menu ul li:nth-child(6):hover {
+    color: #ff9800 !important;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+
+.menu ul li:nth-child(7):hover {
+    color: #ff9800 !important;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+
+.menu ul li:nth-child(8):hover {
+    color: #ff9800 !important;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+
+/* Menu Code Area End of the Here  */
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------------------------------------------------------  */
+/* Client Work Code Area start in the here */
+
+.client-work {
+    width: 35%;
+    height: 104%;
+    background-color: #31313a;
+    border-radius: 2%;
+    position: relative;
+    top: -2%;
+    left: 1%;
+    box-shadow: -22px -25px 6px -12px #7d7d7d27;
+    overflow: hidden;
+}
+
+.client-work-content {
+    width: 100%;
+    height: 90%;
+    background-color: #31313a;
+    overflow: hidden;
+}
+
+.client-work-content-background {
+    width: 100%;
+    height: 55%;
+    overflow: hidden;
+}
+
+.client-work-content-background img {
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+
+}
+
+.client-personal-info {
+    width: 100%;
+    height: 45%;
+}
+
+.client-personal-info .personal-image {
+    width: 30%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -25%;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+
+.client-personal-info .personal-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: -6px 8px 0 5px #f5aa6c26
+}
+
+.personal-name {
+    width: 100%;
+    position: relative;
+    top: -20%;
+    display: flex;
+    justify-content: center;
+}
+
+.personal-name p {
+    color: white;
+    font-size: 2rem;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* Personal Work Code Area Start In the Here */
+.hidden {
+    opacity: 0;
+}
+
+.personal-container {
+
+    font-family: Khula;
+    font-size: 2em;
+    text-align: center;
+    height: 200px;
+    width: 600px;
+    display: block;
+    position: absolute;
+    color: #ff9800;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.console-underscore {
+    display: inline-block;
+    position: relative;
+    top: -0.14em;
+    left: 5px;
+    color: #ff9800;
+}
+
+
+.personal-work {
+    width: 50%;
+    height: 10%;
+    margin: auto;
+    position: relative;
+    top: -20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Personal Work Code Area End of the Here */
+
+/* ---------------------------------------------------------- */
+/* Personal Social Code Area Start in the Here */
+.personal-social {
+    width: 30%;
+    position: relative;
+    top: -15%;
+    margin: auto;
+}
+
+.personal-social .social-adress {
+    width: 100%;
+}
+
+.personal-social .social-adress ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.personal-social .social-adress ul li {
+    text-decoration: none;
+}
+
+.personal-social .social-adress ul li a {
+    color: grey;
+    transition: .2s ease-in-out;
+
+}
+
+.personal-social .social-adress ul li a:hover {
+    color: #ff9800;
+    transition: .2s ease-in-out;
+}
+
+
+/* Personal Social Code Area End of the Here */
+
+/* ---------------------------------------------------------- */
+
+.client-work-footer {
+    width: 100%;
+    height: 10%;
+    background-color: #31313a;
+    border-top: .5px solid rgba(128, 128, 128, 0.537);
+    display: flex;
+    overflow: hidden;
+}
+
+.download {
+    width: 50%;
+    height: 100%;
+    background-color: #31313a;
+    border-right: .5px solid rgba(128, 128, 128, 0.537);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.download a {
+    width: 100%;
+    text-decoration: none;
+    background: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download a:hover,
+.download a:hover::after {
+    color: #ff9800 !important;
+    transition: .2s ease-in-out;
+}
+
+.download a::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f019";
+    display: inline-block;
+    font-weight: 900;
+    font-size: .9rem;
+    color: white;
+    transition: .2s ease-in-out;
+    padding-left: 5%;
+
+}
+
+.contact-me {
+    width: 50%;
+    height: 100%;
+    background-color: #31313a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-me a {
+    width: 100%;
+
+    text-decoration: none;
+    background: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact-me a:hover,
+.contact-me a:hover::after {
+    color: #ff9800 !important;
+    transition: .2s ease-in-out;
+}
+
+.contact-me a::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f2f6";
+    display: inline-block;
+    font-weight: 900;
+    font-size: .9rem;
+    padding-left: 5%;
+
+    transition: .2s ease-in-out;
+}
+
+/* Client Work Code Area End of the here */
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+/* Main part code area start in the Here  */
+
+.main-part {
+    width: 62%;
+    height: 100%;
+    background: #31313a;
+    border-bottom-right-radius: 2%;
+    border-top-right-radius: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.main-part-container {
+    padding: 3%;
+    background: #31313a !important;
+    width: 97%;
+    height: 97%;
+    overflow: scroll;
+    position: relative;
+}
+
+.main-part p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i {
+    background: #31313a;
+    background-color: #31313a;
+}
+
+.main-part #about-content {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+    overflow: scroll;
+    position: relative;
+}
+
+#about-content .about-header {
+    width: 100%;
+    height: 10%;
+    background: #31313a;
+}
+
+.about-header .about-header-content {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+
+}
+
+
+.about-header .about-header-content::before {
+    background: linear-gradient(135deg, rgba(255, 152, 0, .4) 0%, rgba(255, 152, 0, .01) 100%);
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 1%;
+    width: 40%;
+    height: 5%;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+
+}
+
+
+.about-header .about-header-content p {
+    border-bottom: 1px solid grey;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 900;
+    font-family: 'Palette Mosaic', 'cursive';
+    font-family: 'Poppins', sans-serif;
+    padding-left: 1%;
+}
+
+/* ------------------------------------------------------------------------ */
+
+/* Personal info Code Area Start in the Here */
+.personal-info {
+    width: 100%;
+}
+
+.personal-info h3 {
+    color: white;
+}
+
+.personal-info p {
+    color: rgb(155, 155, 155);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.personal-info .personal-info-part {
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+.personal-info-part .personal-info-part-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #31313a;
+
+}
+
+.personal-info-part .personal-info-part-left span {
+    background: #31313a;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.personal-info-part .personal-info-part-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    background: #31313a;
+
+
+}
+
+.personal-info-part .personal-info-part-right span {
+    background: #31313a;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+.personal-info-part span #inner-span {
+    color: grey;
+    align-items: flex-end;
+    padding-left: 2%;
+}
+
+
+.my-services-header {
+    margin-top: 10%;
+    width: 100%;
+    height: 10%;
+    background: #31313a;
+
+}
+
+/* Personal info Code Area End of the Here */
+
+/* ------------------------------------------------------------------------ */
+/* My services Code Area End of the Here */
+
+
+.my-services-header .my-services-header-content {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+
+}
+
+.my-services-header-content::before {
+    background: linear-gradient(135deg, rgba(255, 152, 0, .4) 0%, rgba(255, 152, 0, .01) 100%);
+    content: '';
+    position: absolute;
+    left: 0%;
+    top: 53.5%;
+    width: 40%;
+    height: 5%;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+
+}
+
+.my-services-header .my-services-header-content p {
+    border-bottom: 1px solid grey;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 900;
+    font-family: 'Palette Mosaic', 'cursive';
+    font-family: 'Poppins', sans-serif;
+    padding-left: 1%;
+
+}
+
+.services-content {
+    background: #31313a;
+    position: relative;
+}
+
+.services-content span::before {
+    background: linear-gradient(135deg, rgba(255, 152, 0, .4) 0%, rgba(255, 152, 0, .01) 100%);
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+
+}
+
+.services-content {
+    width: 100%;
+    height: 90%;
+    background: #31313a;
+}
+
+.content-top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.services-content-top-left {
+    width: 49.5%;
+    height: 100%;
+    background: #31313a;
+    border-right: 1px solid rgba(128, 128, 128, 0.172);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.13);
+    padding-left: 1%;
+    padding-right: 3%;
+}
+
+
+
+.icon {
+    background: #31313a;
+    position: absolute;
+}
+
+.icon-bg {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #31313a;
+}
+
+.icon-bg span {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff9800;
+    font-size: 28px;
+}
+
+.icon-bg span::before {
+    background: linear-gradient(135deg, rgba(255, 152, 0, .2) 0%, rgba(255, 152, 0, .01) 100%);
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+}
+
+.icon-bg span::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f121";
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+}
+
+.services-content-header {
+    width: 100%;
+    height: 10%;
+    padding-top: 20%;
+    background: #31313a;
+
+
+}
+
+.services-content-header p {
+    font-weight: 900;
+    background: #31313a;
+    font-size: 1.2rem;
+}
+
+.services-content-item {
+    padding-top: 10%;
+    background: #31313a;
+}
+
+.services-content-item p {
+    color: rgb(170, 169, 169);
+    font-size: 1.2rem;
+
+}
+
+
+.services-content-top-right {
+    width: 49.5%;
+    background: #31313a;
+    padding-left: 3%;
+    padding-right: 2%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.13);
+
+}
+
+.icon-bg-2 span::before {
+    background: linear-gradient(135deg, rgba(255, 152, 0, .2) 0%, rgba(255, 152, 0, .01) 100%);
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+}
+
+.icon-bg-2 span::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f001";
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+}
+
+.icon-2 {
+    background: #31313a;
+    position: absolute;
+}
+
+.icon-bg-2 {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #31313a;
+}
+
+.icon-bg-2 span {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff9800;
+    font-size: 28px;
+}
+
+
+.content-bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding-top: 5%;
+    background: #31313a;
+
+
+}
+
+.services-content-bottom-left {
+    width: 49.5%;
+    height: 100%;
+    background: #31313a;
+    padding-left: 1%;
+    padding-right: 3%;
+    border-right: 1px solid rgba(128, 128, 128, 0.172);
+
+}
+
+
+.icon-bg-3 span::before {
+    background: linear-gradient(135deg, rgba(255, 152, 0, .2) 0%, rgba(255, 152, 0, .01) 100%);
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+}
+
+.icon-bg-3 span::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f1c0";
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+}
+
+.icon-3 {
+    background: #31313a;
+    position: absolute;
+}
+
+.icon-bg-3 {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #31313a;
+}
+
+.icon-bg-3 span {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff9800;
+    font-size: 28px;
+}
+
+/* icon 4 */
+
+
+.icon-bg-4 span::before {
+    background: linear-gradient(135deg, rgba(255, 152, 0, .2) 0%, rgba(255, 152, 0, .01) 100%);
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+}
+
+.icon-bg-4 span::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f11b";
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+}
+
+.icon-4 {
+    background: #31313a;
+    position: absolute;
+}
+
+.icon-bg-4 {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #31313a;
+}
+
+.icon-bg-4 span {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff9800;
+    font-size: 28px;
+}
+
+
+/* My services Code Area End of the Here */
+
+
+
+
+/* Main part code area start in the Here  */
