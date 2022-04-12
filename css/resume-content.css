@@ -101,7 +101,6 @@
     left: 0;
     height: .1%;
     width: 90%;
-
 }
 
 .resume-content-left-header span::before {
@@ -112,7 +111,6 @@
     font-size: 2rem;
     background: #31313a;
     padding-right: 3%;
-
 }
 
 .resume-content-left-header span {
@@ -123,10 +121,6 @@
     font-weight: 900;
     position: relative;
 }
-
-
-
-
 
 .resume-content-left-item {
     width: 100%;
@@ -397,7 +391,6 @@
     left: 5%;
     height: .1%;
     width: 90%;
-
 }
 
 .resume-content-right-header span::before {
@@ -408,7 +401,6 @@
     font-size: 2rem;
     background: #31313a;
     padding-right: 3%;
-
 }
 
 .resume-content-right-header span {
@@ -424,7 +416,6 @@
     height: 100%;
     background: #31313a;
     padding-top: 5%;
-
 }
 
 /* --------------------------------------------------- */
@@ -732,18 +723,5 @@
 /* Resume Content Left Area Code's End of the Here */
 
 /* ------------------------------------------------------------------------------------------------ */
-
-
-
-
-
-
-
-
-
-
-
-
-/* When time end of this page code change resume-content => about-content on app.js file */
 
 /* Resume-content Code Area End of the here */

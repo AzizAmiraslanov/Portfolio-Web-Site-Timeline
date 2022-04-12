@@ -1,0 +1,778 @@
+/* Works-content Code Area Start in this Page */
+#works-content {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+    overflow: scroll;
+    position: relative;
+}
+
+.works-container {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+}
+
+.works-header {
+    width: 100%;
+    height: 10%;
+    background: #31313a;
+}
+
+.works-header-content {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+}
+
+.works-header-content::before {
+    background: linear-gradient(135deg, rgba(255, 152, 0, .4) 0%, rgba(255, 152, 0, .01) 100%);
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 1%;
+    width: 40%;
+    height: 5%;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+
+
+.works-header-content p {
+    border-bottom: 1px solid rgb(128, 128, 128);
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 900;
+    font-family: 'Palette Mosaic', 'cursive';
+    font-family: 'Poppins', sans-serif;
+    padding-left: 1%;
+}
+
+.works-content {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+    display: flex;
+
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+/* Works-content Code Area Start in the here */
+
+/* Works-content-left Code Area Start in the here */
+.works-content-left {
+    width: 50%;
+    height: 100%;
+    height: auto;
+    background: #31313a;
+    padding-left: 1%;
+    padding-top: 2%;
+    position: relative;
+
+}
+
+.works-content-left::after {
+    content: "";
+    background: #737385;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 200%;
+    width: .3%;
+
+}
+
+.works-content-left-item {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+}
+
+
+
+
+/* ---------------------------------------------------- */
+/* Works Left Item - 1 Code Area Start in the Here */
+.works-left-item-1 {
+    width: 95%;
+    height: 45%;
+    background-color: #31313a;
+}
+
+.works-left-item-1:hover .img-show-tittle span {
+    background: #31313a;
+    color: #ff9800;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.works-left-item-1:hover .img-show img {
+    cursor: pointer;
+    transform: scale(110%);
+    transition: .2s ease-in-out;
+}
+
+.works-left-item-1-img .img-show {
+    display: block;
+    width: 100%;
+    background: #31313a;
+    overflow: hidden;
+}
+
+.works-left-item-1-img .img-show img {
+    width: 100%;
+    background: #31313a;
+    transition: .2s ease-in-out;
+
+}
+
+.works-left-item-1-img .img-show-tittle {
+    background: #31313a;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.works-left-item-1-img .img-show-tittle span {
+    background: #31313a;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+    transition: .2s ease-in-out;
+}
+
+.img-hide {
+    position: relative;
+}
+
+.img-hide img {
+    width: 60%;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    z-index: 9999;
+    background: none;
+    transition: .2s ease-in-out;
+}
+
+#close {
+    background: #31313a;
+}
+
+#close span {
+    background: #31313a;
+}
+
+#close span::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00d";
+    display: inline-block;
+    color: #31313a;
+    font-size: 2rem;
+    position: fixed;
+    top: 21%;
+    right: 21%;
+    z-index: 9999;
+    background: none;
+}
+
+
+/* Works Left Item - 1 Code Area End of the Here */
+/* ---------------------------------------------------- */
+
+/* Works Left Item - 2 Code Area Start in the Here */
+
+.works-left-item-2 {
+    width: 95%;
+    height: 45%;
+    background-color: #31313a;
+    margin-top: 5%;
+}
+
+.works-left-item-2:hover .img-show-tittle-2 span {
+    background: #31313a;
+    color: #ff9800;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.works-left-item-2:hover .img-show-2 img {
+    cursor: pointer;
+    transform: scale(110%);
+    transition: .2s ease-in-out;
+}
+
+.works-left-item-2-img .img-show-2 {
+    display: block;
+    width: 100%;
+    background: #31313a;
+    overflow: hidden;
+}
+
+.works-left-item-2-img .img-show-2 img {
+    width: 100%;
+    background: #31313a;
+    transition: .2s ease-in-out;
+
+}
+
+.works-left-item-2-img .img-show-tittle-2 {
+    background: #31313a;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.works-left-item-2-img .img-show-tittle-2 span {
+    background: #31313a;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+    transition: .2s ease-in-out;
+}
+
+.img-hide-2 {
+    position: relative;
+
+
+}
+
+.img-hide-2 img {
+    width: 60%;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    z-index: 9999;
+    background: none;
+    transition: .2s ease-in-out;
+}
+
+#close2 {
+    background: #31313a;
+}
+
+#close2 span {
+    background: #31313a;
+}
+
+#close2 span::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00d";
+    display: inline-block;
+    color: #31313a;
+    font-size: 2rem;
+    position: fixed;
+    top: 21%;
+    right: 21%;
+    z-index: 9999;
+    background: none;
+}
+
+/* Works Left Item - 2 Code Area End of the Here */
+/* ----------------------------------------------------  */
+
+/* Works Left Item - 3 Code Area Start in the Here */
+
+.works-left-item-3 {
+    width: 95%;
+    height: 45%;
+    background-color: #31313a;
+    margin-top: 5%;
+}
+
+.works-left-item-3:hover .img-show-tittle-3 span {
+    background: #31313a;
+    color: #ff9800;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.works-left-item-3:hover .img-show-3 img {
+    cursor: pointer;
+    transform: scale(110%);
+    transition: .2s ease-in-out;
+}
+
+.works-left-item-3-img .img-show-3 {
+    display: block;
+    width: 100%;
+    background: #31313a;
+    overflow: hidden;
+}
+
+.works-left-item-3-img .img-show-3 img {
+    width: 100%;
+    background: #31313a;
+    transition: .2s ease-in-out;
+
+}
+
+.works-left-item-3-img .img-show-tittle-3 {
+    background: #31313a;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.works-left-item-3-img .img-show-tittle-3 span {
+    background: #31313a;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+    transition: .2s ease-in-out;
+}
+
+.img-hide-3 {
+    position: relative;
+
+
+}
+
+.img-hide-3 img {
+    width: 60%;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    z-index: 9999;
+    background: none;
+    transition: .2s ease-in-out;
+}
+
+#close3 {
+    background: #31313a;
+}
+
+#close3 span {
+    background: #31313a;
+}
+
+#close3 span::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00d";
+    display: inline-block;
+    color: #ff9800;
+    font-size: 2rem;
+    position: fixed;
+    top: 21%;
+    right: 21%;
+    z-index: 9999;
+    background: none;
+}
+
+/* Works Left Item - 3 Code Area End of the Here */
+/* ----------------------------------------------------  */
+/* Works Left Item - 4 Code Area Start in the Here */
+
+.works-left-item-4 {
+    width: 95%;
+    height: 45%;
+    background-color: #31313a;
+    margin-top: 5%;
+}
+
+.works-left-item-4:hover .img-show-tittle-4 span {
+    background: #31313a;
+    color: #ff9800;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.works-left-item-4:hover .img-show-4 img {
+    cursor: pointer;
+    transform: scale(110%);
+    transition: .2s ease-in-out;
+}
+
+.works-left-item-4-img .img-show-4 {
+    display: block;
+    width: 100%;
+    background: #31313a;
+    overflow: hidden;
+}
+
+.works-left-item-4-img .img-show-4 img {
+    width: 100%;
+    background: #31313a;
+    transition: .2s ease-in-out;
+
+}
+
+.works-left-item-4-img .img-show-tittle-4 {
+    background: #31313a;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.works-left-item-4-img .img-show-tittle-4 span {
+    background: #31313a;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+    transition: .2s ease-in-out;
+}
+
+.img-hide-4 {
+    position: relative;
+}
+
+.img-hide-4 img {
+    width: 60%;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    z-index: 9999;
+    background: none;
+    transition: .2s ease-in-out;
+}
+
+#close4 {
+    background: #31313a;
+}
+
+#close4 span {
+    background: #31313a;
+}
+
+#close4 span::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00d";
+    display: inline-block;
+    color: #ff9800;
+    font-size: 2rem;
+    position: fixed;
+    top: 21%;
+    right: 21%;
+    z-index: 9999;
+    background: none;
+}
+
+/* Works Left Item - 3 Code Area End of the Here */
+/* ----------------------------------------------------  */
+
+/* Works-content-left Code Area End of the here */
+/* ------------------------------------------------------------------------------------------------ */
+
+/* Works-content-right Code Area Start in the here */
+.works-content-right {
+    width: 50%;
+    height: 100%;
+    height: auto;
+    background: #31313a;
+    padding-left: 2%;
+    padding-top: 2%;
+    position: relative;
+}
+
+.works-content-right-item {
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+}
+
+/* ---------------------------------------------------- */
+/* Works Right Item - 1 Code Area Start in the Here */
+.works-right-item-1 {
+    width: 98%;
+    height: 45%;
+    background-color: #31313a;
+}
+
+.works-right-item-1:hover .right-img-show-tittle span {
+    background: #31313a;
+    color: #ff9800;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.works-right-item-1:hover .img-show-right-1 img {
+    cursor: pointer;
+    transform: scale(110%);
+    transition: .2s ease-in-out;
+}
+
+.works-right-item-1-img .img-show-right-1 {
+    display: block;
+    width: 100%;
+    background: #31313a;
+    overflow: hidden;
+}
+
+.works-right-item-1-img .img-show-right-1 img {
+    width: 100%;
+    background: #31313a;
+    transition: .2s ease-in-out;
+}
+
+.works-right-item-1-img .right-img-show-tittle {
+    background: #31313a;
+    display: flex;
+    flex-direction: column;
+}
+
+.works-right-item-1-img .right-img-show-tittle span {
+    background: #31313a;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+    transition: .2s ease-in-out;
+}
+
+.img-hide-right-1 {
+    position: relative;
+}
+
+.img-hide-right-1 img {
+    width: 60%;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    z-index: 9999;
+    background: none;
+    transition: .2s ease-in-out;
+}
+
+#close-right-1 {
+    background: #31313a;
+}
+
+#close-right-1 span {
+    background: #31313a;
+}
+
+#close-right-1 span::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00d";
+    display: inline-block;
+    color: #31313a;
+    font-size: 2rem;
+    position: fixed;
+    top: 21%;
+    right: 21%;
+    z-index: 9999;
+    background: none;
+}
+
+
+/* Works right Item - 1 Code Area End of the Here */
+/* ---------------------------------------------------- */
+/* Works Right Item - 2 Code Area Start in the Here */
+.works-right-item-2 {
+    width: 98%;
+    height: 45%;
+    background-color: #31313a;
+    margin-top: 5%;
+
+}
+
+.works-right-item-2:hover .right-img-show-tittle span {
+    background: #31313a;
+    color: #ff9800;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.works-right-item-2:hover .img-show-right-2 img {
+    cursor: pointer;
+    transform: scale(110%);
+    transition: .2s ease-in-out;
+}
+
+.works-right-item-2-img .img-show-right-2 {
+    display: block;
+    width: 100%;
+    background: #31313a;
+    overflow: hidden;
+}
+
+.works-right-item-2-img .img-show-right-2 img {
+    width: 100%;
+    background: #31313a;
+    transition: .2s ease-in-out;
+}
+
+.works-right-item-2-img .right-img-show-tittle {
+    background: #31313a;
+    display: flex;
+    flex-direction: column;
+}
+
+.works-right-item-2-img .right-img-show-tittle span {
+    background: #31313a;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+    transition: .2s ease-in-out;
+}
+
+.img-hide-right-2 {
+    position: relative;
+}
+
+.img-hide-right-2 img {
+    width: 60%;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    z-index: 9999;
+    background: none;
+    transition: .2s ease-in-out;
+}
+
+#close-right-2 {
+    background: #31313a;
+}
+
+#close-right-2 span {
+    background: #31313a;
+}
+
+#close-right-2 span::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00d";
+    display: inline-block;
+    color: #ff9800;
+    font-size: 2rem;
+    position: fixed;
+    top: 22%;
+    right: 21%;
+    z-index: 9999;
+    background: none;
+}
+
+/* Works right Item - 2 Code Area End of the Here */
+/* ---------------------------------------------------- */
+/* Works Right Item - 3 Code Area Start in the Here */
+.works-right-item-3 {
+    width: 98%;
+    height: 45%;
+    background-color: #31313a;
+    margin-top: 5%;
+
+}
+
+.works-right-item-3:hover .right-img-show-tittle span {
+    background: #31313a;
+    color: #ff9800;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.works-right-item-3:hover .img-show-right-3 img {
+    cursor: pointer;
+    transform: scale(110%);
+    transition: .2s ease-in-out;
+}
+
+.works-right-item-3-img .img-show-right-3 {
+    display: block;
+    width: 100%;
+    background: #31313a;
+    overflow: hidden;
+}
+
+.works-right-item-3-img .img-show-right-3 img {
+    width: 100%;
+    background: #31313a;
+    transition: .2s ease-in-out;
+}
+
+.works-right-item-3-img .right-img-show-tittle {
+    background: #31313a;
+    display: flex;
+    flex-direction: column;
+}
+
+.works-right-item-3-img .right-img-show-tittle span {
+    background: #31313a;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+    transition: .2s ease-in-out;
+}
+
+.img-hide-right-3 {
+    position: relative;
+}
+
+.img-hide-right-3 img {
+    width: 60%;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    z-index: 9999;
+    background: none;
+    transition: .2s ease-in-out;
+}
+
+#close-right-3 {
+    background: #31313a;
+}
+
+#close-right-3 span {
+    background: #31313a;
+}
+
+#close-right-3 span::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00d";
+    display: inline-block;
+    color: #31313a;
+    font-size: 2rem;
+    position: fixed;
+    top: 22%;
+    right: 21%;
+    z-index: 9999;
+    background: none;
+}
+
+/* Works right Item - 3 Code Area End of the Here */
+/* ---------------------------------------------------- */
+/* Works Right Item - 4 Code Area Start in the Here */
+.works-right-item-4 {
+    width: 98%;
+    height: 25%;
+    background-color: #31313a;
+    margin-top: 25%;
+
+}
+
+.works-right-item-4:hover .right-img-show-tittle span {
+    background: #31313a;
+    color: #ff9800;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+
+.right-img-show-tittle {
+    background: #31313a;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-img-show-tittle span {
+    background: #31313a;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+    transition: .2s ease-in-out;
+}
+
+/* Works right Item - 3 Code Area End of the Here */
+/* ---------------------------------------------------- */
+
+/* ---------------------------------------------------- */
+
+/* Works-content-right Code Area End of the here */
+
+/* ------------------------------------------------------------------------------------------------ */
+/* works-content Code Area End of the here */
